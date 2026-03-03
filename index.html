@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Marcio Borba Filho | Data & Power Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f5f6fa;
+      color: #333;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: #111;
+      color: white;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 60px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 550px;
+    }
+
+    .hero-text h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      background: #111;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #444;
+    }
+
+    .hero img {
+      width: 320px;
+      border-radius: 20px;
+    }
+
+    section {
+      padding: 80px 60px;
+    }
+
+    .section-title {
+      font-size: 30px;
+      margin-bottom: 40px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skill-badge {
+      background: #111;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+      color: white;
+    }
+
+    @media(max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero img {
+        margin-top: 40px;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>Marcio.dev</h2>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Marcio Borba Filho</h1>
+      <p>
+        Especialista em automação e soluções corporativas utilizando
+        <strong>Power Apps, Power BI, Power Automate</strong>,
+        além de Python e SQL para análise e transformação de dados.
+        Foco em eficiência operacional e digitalização de processos.
+      </p>
+      <a class="btn" href="https://www.linkedin.com/in/marcio-borba-filho/" target="_blank">
+        Meu :contentReference[oaicite:0]{index=0}
+      </a>
+    </div>
+
+    <img src="https://via.placeholder.com/320x400" alt="Sua Foto">
+  </section>
+
+  <section id="sobre">
+    <h2 class="section-title">Sobre Mim</h2>
+    <p>
+      Atuação com desenvolvimento de aplicações corporativas,
+      automação de fluxos de trabalho e construção de dashboards estratégicos.
+      Experiência integrando sistemas e otimizando processos através da Power Platform.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Stack & Tecnologias</h2>
+    <div class="skills">
+      <div class="skill-badge">Power Apps</div>
+      <div class="skill-badge">Power BI</div>
+      <div class="skill-badge">Power Automate</div>
+      <div class="skill-badge">Python</div>
+      <div class="skill-badge">SQL</div>
+      <div class="skill-badge">Databricks</div>
+      <div class="skill-badge">Excelência Operacional</div>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2 class="section-title">Projetos</h2>
+
+    <div class="projects">
+
+      <div class="card">
+        <h3>Gestão de Usuários - Power Apps</h3>
+        <p>Aplicação corporativa integrada a banco SQL para controle e validação de usuários.</p>
+      </div>
+
+      <div class="card">
+        <h3>Automação de Processos - Power Automate</h3>
+        <p>Fluxos automatizados para redução de tarefas manuais e aumento de produtividade.</p>
+      </div>
+
+      <div class="card">
+        <h3>Dashboard Executivo - Power BI</h3>
+        <p>Painel estratégico com indicadores financeiros e operacionais.</p>
+      </div>
+
+      <div class="card">
+        <h3>Automação SAP com Python</h3>
+        <p>Extração e tratamento automatizado de dados para relatórios gerenciais.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2 class="section-title">Contato</h2>
+    <p>Email: seuemail@email.com</p>
+  </section>
+
+  <footer>
+    © 2026 Marcio Borba Filho
+  </footer>
+
+</body>
+</html>
