@@ -625,3 +625,24 @@ border-top:2px solid #1e293b;
 
 }
 
+.mobile-warning{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:10px;
+  font-size:14px;
+  z-index:999;
+}
+
+@media (max-width: 768px){
+  .mobile-warning{
+    display:block;
+  }
+}
+
+
