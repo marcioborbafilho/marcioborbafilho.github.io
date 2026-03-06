@@ -22,6 +22,7 @@ body{
 font-family: 'Satoshi', sans-serif;
 font-weight:300;
 background:linear-gradient(to bottom, #020617, #03112b);
+color:#ffffff;
 }
 
 
@@ -623,3 +624,4 @@ font-size:14px;
 border-top:2px solid #1e293b;
 
 }
+
